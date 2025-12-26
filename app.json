@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/bijiao/bijiao",
+
+    "pages/pk/pk",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/kk/kk",
+    "pages/pp/pp",
+    "pages/jj/jj",
+    "pages/st/st"
+   
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#f00",
+    "borderStyle":"black",
+    "backgroundColor": "#ff3c91",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/images/index.png",
+      "selectedIconPath": "pages/images/index_blue.png",
+      "text": "芜湖大司马"
+    },{
+      "pagePath": "pages/kk/kk",
+      "iconPath": "pages/images/index.png",
+      "selectedIconPath": "pages/images/index_blue.png",
+      "text": "地咖喱股豆豆"
+    }]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
